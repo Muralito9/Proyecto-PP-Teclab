@@ -129,4 +129,11 @@ html{
     color: coral;
     display: none;
 }
-
+/* Sector Presentación */
+#presentacion {
+    max-height: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: olive;
+    display: flex;
+}
