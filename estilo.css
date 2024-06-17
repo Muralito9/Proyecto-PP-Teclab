@@ -18,3 +18,15 @@ html{
     background-position: center center;
     height: 100vh;
 }
+
+#inicio .contenido header{
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header{
+    
+}
