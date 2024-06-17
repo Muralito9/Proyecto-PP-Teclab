@@ -82,3 +82,38 @@ html{
     margin-bottom: 20px;
     text-align: justify;
 }
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 40px;
+    color: chocolate;
+}
+
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: flow-root;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 3px solid bisque;
+    border-radius: 50px;
+    color: bisque;
+    font-weight: lighter;
+    text-transform: uppercase;
+    transition: .5%;
+
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: chocolate;
+}
+
+#icono-nav{
+    color: coral;
+    display: none;
+}
