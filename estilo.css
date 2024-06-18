@@ -158,8 +158,50 @@ html{
     font-size: 20px;
     text-transform: uppercase;
     color: rgb(17, 17, 16);
-    text-decoration:dashed;
+    text-decoration:underline;
     text-decoration-color: rgb(20, 18, 18);
     text-decoration-thickness: 5px;
 
+}
+
+#presentacion .presentacion h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+}
+
+#presentacion .presentacion h2 span{
+    color:rgb(238, 147, 28);
+}
+
+#presentacion .presentacion h3{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+#presentacion .presentacion p{
+    font-size: 13px;
+    line-height: 20px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#presentacion .presentacion a{
+    display: inline-table;
+    text-decoration: none;
+    color: blue;
+    border-radius: 45px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#presentacion .presentacion a:hover{
+    background-color: chocolate;
+    color: rgb(13, 14, 13);
 }
