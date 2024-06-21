@@ -13,7 +13,7 @@ html{
 }
 
 #inicio{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/fondo-inicio.jpeg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/fondo2-inicio.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -28,5 +28,180 @@ html{
 }
 
 #inicio .contenido header .contenido-header{
-    
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: sandybrown;
+}
+
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin: 0 12px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: brown;
+}
+
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: blueviolet;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 5%;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover{
+    color:darkorange;
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 40px;
+    color: chocolate;
+}
+
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: flow-root;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 3px solid bisque;
+    border-radius: 50px;
+    color: bisque;
+    font-weight: lighter;
+    text-transform: uppercase;
+    transition: .5%;
+
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: chocolate;
+}
+
+#icono-nav{
+    color: coral;
+    display: none;
+}
+/* Sector Presentación */
+#presentacion {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: rgb(22, 92, 104);
+    display: flex;
+}
+
+#presentacion .contenedor-foto{
+    max-width: 350px;
+    margin-left: 75px;
+}
+
+#presentacion .contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:rgb(234, 241, 247);
+}
+
+#presentacion .presentacion{
+    margin: 0 40px;
+}
+
+#presentacion .presentacion .titulo-seccion{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(17, 17, 16);
+    text-decoration:underline;
+    text-decoration-color: rgb(20, 18, 18);
+    text-decoration-thickness: 5px;
+
+}
+
+#presentacion .presentacion h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+}
+
+#presentacion .presentacion h2 span{
+    color:rgb(238, 147, 28);
+}
+
+#presentacion .presentacion h3{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+#presentacion .presentacion p{
+    font-size: 13px;
+    line-height: 20px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#presentacion .presentacion a{
+    display: inline-table;
+    text-decoration: none;
+    color: blue;
+    border-radius: 45px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#presentacion .presentacion a:hover{
+    background-color: chocolate;
+    color: rgb(13, 14, 13);
 }
